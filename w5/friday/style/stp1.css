@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navBar {
+    padding: 20px 30px;
+    font-family: 'Black Han Sans', sans-serif;
+    min-height: 10px;
+    background-color:mistyrose;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color:deeppink;
+
+}
+
+.navBar__buttons {
+    display:flex;
+    gap: 16px;
+}
+
+.navBar__button > a {
+    color:mediumseagreen;
+    text-decoration: none;
+}
+
+.navBar__logo {
+    style="color: seagreen; font-size: 30px"
+    height: 36px;
+}
